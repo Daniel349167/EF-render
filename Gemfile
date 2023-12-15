@@ -9,10 +9,10 @@ gem 'uglifier', '>= 2.7.1'
 
 gem 'jquery-rails'
 gem 'faraday'
-group :test do
+
  gem 'rails-controller-testing'
  gem 'guard-rspec'
-end
+
 
 gem "webmock"
 # for Heroku deployment - as described in Ap. A of ELLS book
@@ -26,7 +26,7 @@ gem "webmock"
 
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3', '~> 1.3.6'
-  gem 'web-console', group: :development
+  gem 'web-console'
 
 
 
